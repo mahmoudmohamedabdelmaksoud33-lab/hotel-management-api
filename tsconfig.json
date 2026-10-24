@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022" /* النسخة الحديثة من الـ JavaScript اللي هنشتغل بيها */,
+    "module": "commonjs" /* نظام الـ Modules المستخدم في Node.js */,
+    "lib": ["es2022"] /* المكتبات الأساسية المدعومة */,
+    "strict": true /* تفعيل أقصى درجات الحماية والتدقيق في الأنواع */,
+    "esModuleInterop": true /* السماح باستيراد الحزم بطريقة الـ ES Modules (import/export) */,
+    "skipLibCheck": true /* تخطي فحص ملفات الـ Types الخارجية لتسريع عملية الـ Build */,
+    "forceConsistentCasingInFileNames": true /* منع مشاكل اختلاف حروف أسماء الملفات (Case-sensitivity) */,
+    "experimentalDecorators": true /* مهم جداً: تفعيل الـ Decorators (@Entity, @Column) الخاصة بـ TypeORM */,
+    "emitDecoratorMetadata": true /* مهم جداً: السماح بقراءة الأنواع عبر الـ Decorators لـ TypeORM */
+  }
+}
